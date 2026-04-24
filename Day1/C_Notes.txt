@@ -1,0 +1,80 @@
+
+**Language** 
+        -> Langauage is a medium of communication
+        -> If human wants to communicate with machine then computer language is needed
+
+**Programming Language** 
+        -> If programmer wants to pass their set of instructions to the machine then programming language is needed.
+        -> Only Programming Language Can convert into machine language for machine understanding.
+
+
+
+Human -> Java, c, react, python, .net  -> addition -> a=23 , b=23 , c=a+b -> compiler / Interpreter -> 01010 01011 -> communication with computer -> o/p
+
+**Types of Language**
+    Low Level  - Machine langues (binary nos)
+    mid-Level  - C, C++
+    High Level - Java Python (Human Friendly)
+
+
+
+**Standalone Applications** 
+    -> are the applications which needs installation to use 
+    -> To develop Standalone Applications we use C, CPP
+    -> OS Dependent (Need File Extentions)
+
+** Web Applications**
+    -> are the applications which we can use without installation
+    -> we use HTML, CSS, JS, React etc
+    -> OS Independent Ex Java, .net, android
+
+** IDE- Integrated Development Environment **
+** Header Files **
+
+** C Introduction **
+
+    -> C is Developed by Dennis Richie in 1972
+    -> C is machine independent but platform dependent
+
+
+**Variables **
+    -> syntax:- keyword identifier = value;
+                Ex. int a=10;           -> this is called variable initialization
+                Ex. char c='A';         -> this is called variable declaration
+    -> variable is user defined memory allocation used to store data like numbers, strings etc.
+    -> Variable is a simply name of storage location which is used to identify our data.
+    -> We have to follow some rules to declare the variable names 
+                - we can't use any repeated name (identifier)
+                - we can't use a keyward as a name (keywords: int, float, char, etc.)
+                - we can't use white-spaces while writting identifiers for concatenation purpose we use underscore ("_")
+                - we can use alphabets underscore, character and number in our variable name; but we can't start from number
+
+                                a
+                                |
+        Datatype (int) -- |    10     | -- size(4)
+                                |
+                             Address
+
+**Datatypes**
+    -> is a concept which is used to specify the type of data
+    -> Datatypes used to specify the size of data
+
+    There are 4 Types of Data Types: 
+    1. Basic        - Int (4 bytes), char(1 bytes), float(4 bytes), double(8 bytes)
+    2. Derived      - Array, Pointer, structure, union
+    3. Enumeration  - enum (mostly used for dates or days like that)
+    4. Void         - void
+
+**Control Statememtns **
+    ->Control Statements are used to control the flow of the programme
+    -> There are 2 Types of Contorl Programms -1. Conditional Statemments 2. Looping Statements
+
+    1. Control Statements: it is used to check one or more than one conditions 
+                            There are 3 conditional statements - 1. if-else 2. else if 3. switch-it is a alternative statement for else if
+    
+    2. Looping Statements: If we wanna execute the same / specific statements again and again (do iterations or repititions) then we use Looping Statements
+                            There are 3 Looping Statememnts: 1. For Loop 2. Do-while loop 3. While Loop
+
+
+presentation topic: variable , datatype , operator - on Tuesday
+
