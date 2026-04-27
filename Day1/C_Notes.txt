@@ -76,5 +76,25 @@ Human -> Java, c, react, python, .net  -> addition -> a=23 , b=23 , c=a+b -> com
                             There are 3 Looping Statememnts: 1. For Loop 2. Do-while loop 3. While Loop
 
 
+
+** Function **
+    -> is a Block of code which encloses in the curly braces 
+    -> for performing a specific task again and again without re-writing same logic 
+    -> syntax: return_type function_name(){         <- Function Definition
+                    /* Code */                      <- Block of code
+                        }
+
+               function_name();                     <- Function Calling      
+
+    -> types of Function : 1. Defalut Function 2. Prameterized Function   
+
+
+** Global Variables **
+        -> We can Access the Global Variables from anywhere in the program     
+**Local Variable **
+        -> We can't Access the local variables from anywhere
+
+
+
 presentation topic: variable , datatype , operator - on Tuesday
 
