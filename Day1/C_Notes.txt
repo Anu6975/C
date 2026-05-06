@@ -86,7 +86,7 @@ Human -> Java, c, react, python, .net  -> addition -> a=23 , b=23 , c=a+b -> com
 
                function_name();                     <- Function Calling      
 
-    -> types of Function : 1. Defalut Function 2. Prameterized Function   
+    -> types of Function : 1. Default Function 2. Prameterised Function   
 
 
 ** Global Variables **
@@ -94,7 +94,51 @@ Human -> Java, c, react, python, .net  -> addition -> a=23 , b=23 , c=a+b -> com
 **Local Variable **
         -> We can't Access the local variables from anywhere
 
+** Arrays **
+    -> Array is a data type(derived data-type) where we store data in the from of collection.
+    -> Array is a collection of similar data-types stored in a contiguous memory.
+    -> We can't store values of same memories location.
+    -> It is fix size collection.stored the primitive data types.
+
+    *Advantages*: 1. code optimization   2. ease traversing    3. ease of sorting      4. random access with O(1) time complexity
+    
+    -> There are three type of array:
+            1. 1D Array: 
+                    - Look like a list there is a 1D(size).
+                    - Syntax: data_types array_name [size]={e1,e2}
+            2. 2d array: 
+                    - 2d Array is a Collection of 1d array.
+                    - Syntax:data_type arr_name[row size][col size]={};
+            3. 3d array: 
+                    - 3d array:it a collection of 2d array 
+                    - syntax: datatype arr_name[2d arr][row][col]={{{},{}},{{}{}},{{}{}}};
 
 
-presentation topic: variable , datatype , operator - on Tuesday
+** Strings **
+    -> If we want to store collection of characters, at the same memory location then we have to use here character array, or string literal
+    -> Syntax: 1. Character Array: char my_name[5]= {'A','N','U','J','A',};
+            2. String Literals: char my_name[]= "ANUJA";
 
+
+** Structure and Union **
+
+    -> Structure and union both are user defined data-types which are depend on basic data-types thats why they are called derived datatypes
+    -> Here We can store collection of different data-types at same memory location
+    -> Syntax: datatype { /* Data members */  } object;
+    -> Examples: struct { int salary; char employee_name;}e1, e2;   for initializing it we use it like a Function -> struct e1, e1
+
+** Structure **
+    -> It takes the size according to the data-Types
+    -> Example: struct employee              Here int will take 4 bytes, name will take 20 and float will take 4 bytes hence total will be 28 bytes
+                {   int id;                  | 101 | A| B| C| | | | | 45.67|     
+                    char name[20];             int        char        float
+                    float weight;             4bytes   + 20bytes  +   4bytes
+                }e1;
+    -> Memory: Each member has its own uniques memory location
+    -> Size:   Sum of sizes of all members (plus padding)
+    -> Value:  All members can hold valid values simultaneously
+
+** Union **
+    -> Memory: all members share the same memory location
+    -> Size:   Equal to the largest member
+    -> Value:  Only one member can hold a valid value at once
