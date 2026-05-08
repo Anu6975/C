@@ -142,3 +142,16 @@ Human -> Java, c, react, python, .net  -> addition -> a=23 , b=23 , c=a+b -> com
     -> Memory: all members share the same memory location
     -> Size:   Equal to the largest member
     -> Value:  Only one member can hold a valid value at once
+
+
+** File Handling **
+    -> File Handling is a concept which is define to handle manipulation(Create, Delete, Update, etc.) of text files(.txt) using C program
+    -> Operations : Create, Open, Read, Write, Delete, Modify.
+    -> Modes of File Handling: r, w, a, r+, w+, a+.
+            1. r : it opens file in read mode only if file doesn't exist then returns null
+            2. w : w opens the file if file already exists and starts overwriting the contents if started writing else creates one and starts writing again from the start (0th Index)
+            3. a : a creates a new file just like "w" mode if it does not exists and appends the contents which we wrote in the file instead of starting from index 0
+
+            4. r+ : r+ reads, writes from the stars, it overwrites the contents in the file , also doesn't creates new file
+            5. w+ : w+ can read and write and also starts from the index 0, can Create new file
+            6. a+ : Append and read. It lets you read, but any writing always goes to the end of the file. can create new file
